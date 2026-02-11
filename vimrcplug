@@ -1,0 +1,24 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
+
+Plug 'voldikss/vim-floaterm'
+
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+Plug 'preservim/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind', 'NERDTree'] }
+Plug 'PhilRunninger/nerdtree-visual-selection', { 'on': 'NERDTreeToggle' }
+
+Plug 'blueshirts/darcula'
+Plug 'dracula/vim', { 'as': 'dracula' }
+
+Plug 'preservim/tagbar'
+Plug 'ludovicchabant/vim-gutentags'
+
+Plug 'itchyny/lightline.vim'
+Plug 'whatyouhide/vim-gotham'
+Plug 'jlanzarotta/bufexplorer'
+Plug 'haya14busa/vim-poweryank'
+call plug#end()
