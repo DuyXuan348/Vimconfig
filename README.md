@@ -1,2 +1,2 @@
-# DuyXuan
-Embedded Engineer
+# VIMCONFIG
+DUY XUAN
