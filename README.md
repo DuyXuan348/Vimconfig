@@ -1,2 +1,2 @@
 # VIMCONFIG
-DUY XUAN
+This is vim config of DUY XUAN
